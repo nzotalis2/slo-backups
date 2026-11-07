@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>slo-backups</title>
+<style>
+  body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; max-width: 42rem; margin: 3rem auto; padding: 0 1rem; color: #1d1d1f; background: #fff; }
+  h1 { font-size: 1.6rem; }
+  a { color: #0b57d0; }
+</style>
+</head>
+<body>
+<h1>slo-backups</h1>
+<p>slo-backups is a personal tool. It runs on one server that I operate and
+uploads nightly backups of a personal research database to my own Google
+Drive, using <a href="https://rclone.org/">rclone</a>.</p>
+<p>It uses Google's <code>drive.file</code> permission, which lets it see and
+manage only the files it creates itself: it uploads backup files, lists them,
+and deletes its own old copies. It cannot see anything else in the Drive.</p>
+<p>It is not offered to anyone else, and only its owner signs in to it.</p>
+<p><a href="privacy.html">Privacy policy</a></p>
+</body>
+</html>
